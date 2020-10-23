@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!-- Copiright 2020 Omar Aguirre Alvarez <omar.fi.wwr@gmail.com> -->
+<component type = "desktop">
+    <id>com.github.GoldenGladier.gtk-hello-again</id>
+    <metadata_license>CC0</metadata_license>
+    <name>Hello World</name>
+    <summary>This is my hello world again app :D</summary>
+    <description>
+        <p>This is my application hello world, made with Bala and Gtk, we are progressing ...</p>
+    </description>
+
+    <value key="x-appcenter-color-primary">#603461</value>
+    <value key="x-appcenter-color-primary-text">rgb(255, 255, 255)</value>
+    <value key="x-appcenter-suggested-price">0</value>
+
+</component>
