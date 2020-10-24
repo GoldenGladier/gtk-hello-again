@@ -5,7 +5,7 @@ project('com.github.GoldenGladier.gtk-hello-again', 'vala', 'c')
 # list the dependencies we need, and install
 executable(
     meson.project_name(),
-    'src/Aplication.vala',
+    'src/Application.vala',
     dependencies: [
         dependency('gtk+-3.0')
     ],
