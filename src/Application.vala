@@ -10,18 +10,18 @@ public class MyApp : Gtk.Application {
         var main_window = new Gtk.ApplicationWindow (this) {
             default_height = 300,
             default_width = 500,
-            title = "Hello World Again"
+            title = _("Hello World Again")
         };
 
-        var button_hello = new Gtk.Button.with_label ("Click me!") {
+        var button_hello = new Gtk.Button.with_label (_("Click me!")) {
             margin = 50
         };
         button_hello.clicked.connect (() => {
-            button_hello.label = "Hello world!";
+            button_hello.label = _("Hello world!");
             button_hello.sensitive = false;
         });
 
-        var label = new Gtk.Label ("Hello Again World");
+        var label = new Gtk.Label (_("Hello Again World"));
         
         main_window.add (label);        
         main_window.add (button_hello);
